@@ -10,4 +10,5 @@ export const siteDetails = {
   locale: "en-US",
   siteLogo: `https://i.postimg.cc/pVQyLWWL/brainstorm.png`, // or use a string for the logo e.g. "TechStartup"
   googleAnalyticsId: "", // e.g. G-XXXXXXX,
+  email: "mimiko.apps@gmail.com",
 };

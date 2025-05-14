@@ -22,6 +22,14 @@ export const footerDetails: {
       text: "Success Stories",
       url: "#testimonials",
     },
+    {
+      text: "Privacy Policy",
+      url: "/privacy-policy",
+    },
+    {
+      text: "Terms & Conditions",
+      url: "/terms",
+    },
   ],
   email: "mimiko.apps@gmail.com",
   telephone: "+33 (6) 25428638",
