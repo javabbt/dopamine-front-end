@@ -1,6 +1,4 @@
 import Hero from "@/components/Hero";
-import WaitlistWidget from "@/components/WaitlistWidget";
-import { getWaitlistConfig } from "@/data/waitlistConfig";
 import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing/Pricing";
 import FAQ from "@/components/FAQ";
@@ -12,21 +10,12 @@ import Stats from "@/components/Stats";
 import CTA from "@/components/CTA";
 
 const HomePage: React.FC = () => {
-  const waitlistConfig = getWaitlistConfig();
-
   return (
     <>
-      <div className="pt-32 pb-1 px-5">
-        <div className="max-w-md mx-auto">
-          <WaitlistWidget
-            waitlistId={waitlistConfig.waitlistId}
-            customTitle={waitlistConfig.title}
-            customDescription={waitlistConfig.description}
-          />
-        </div>
+      <div className="pt-20">
+        <Hero />
       </div>
-      <Hero />
-      <div className="mt-16">
+      <div className="mt-20">
         <Logos />
       </div>
       <Container>
