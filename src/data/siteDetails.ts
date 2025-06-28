@@ -2,7 +2,7 @@ export const siteDetails = {
   siteName: "Dopamine",
   siteUrl: "https://dopamineapp.xyz",
   metadata: {
-    title: "Dopamin - Break the Dopamine Loop",
+    title: "Dopamine - Break the Dopamine Loop",
     description:
       "Track and overcome your addictions to overstimulation: scrolling, sugar, YouTube, and more. Take control of your digital habits with Dopamin.",
   },

@@ -5,5 +5,5 @@ export const ctaDetails = {
   appStoreUrl:
     "https://apps.apple.com/fr/app/dopamine-reclaim-your-brain/id6744736019",
   googlePlayUrl:
-    "https://play.google.com/store/apps/details?id=com.dopamine.app",
+    "https://play.google.com/store/apps/details?id=com.weinc.dopamine",
 };
